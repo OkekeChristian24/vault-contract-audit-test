@@ -181,7 +181,9 @@ It is not only the deposit function that is vulnerable.
 - A malicious token sent to the contract could in principle trigger reentrant behavior during transfer calls,
   or an attacker could try some callback function calls.
 
-### Recommended Fix: Use OpenZeppelin ReentrancyGuard and mark deposit, withdraw, emergencyWithdraw, and compoundRewards nonReentrant
+### Recommended Fix:
+
+Use OpenZeppelin ReentrancyGuard and mark deposit, withdraw, emergencyWithdraw, and compoundRewards nonReentrant
 
 ## ISSUE-8:
 
