@@ -188,6 +188,6 @@ It is not only the deposit function that is vulnerable.
 Due to precision or rounding values issues (when values are floored), the vault contract shares calculations may become slightly
 inconsistent.
 
-## Recommended Fix:
+### Recommended Fix:
 
 Use higher-precision multipliers during calculations. It can mitigate the precision issues.
